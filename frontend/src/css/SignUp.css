@@ -1,0 +1,74 @@
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px ;
+
+} 
+
+.form-container {
+    margin-left: 80px;
+}
+
+.form {
+    background-color: #ffffff4d;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.signUpLogo {
+    width: 200px;
+    object-fit: contain;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.loginPara {
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form > div {
+    width: 80%;
+    margin: auto;
+}
+
+#submit-btn {
+    width: 82%;
+    border: none;
+    border-radius: 10px;
+    background-color: #34a4eb;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 8px ;
+    /* margin-left: 5px; */
+
+}
+
+.form2{
+    background-color: #ffffff4d;
+    padding: 10px;
+    margin-top: 3px;
+    border: 1px solid rgb(129, 121, 121);
+    border-radius: 5px;
+    text-align: center;
+}
